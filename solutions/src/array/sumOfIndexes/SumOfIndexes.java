@@ -1,8 +1,8 @@
-package arrays.sumOfIndexes;
+package array.sumOfIndexes;
 
 import java.util.Arrays;
 
-public class Main {
+public class SumOfIndexes {
     public static void main(String[] args) {
 
         int[] nums = {1, 2, 3, 4, 5};
@@ -19,7 +19,6 @@ public class Main {
      * @param target  target sum to be achieved
      * @return        array with two indices or an empty array if no such pair exists
      */
-
     public static int[] indexSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
